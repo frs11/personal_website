@@ -53,6 +53,7 @@
         button{
             color: rgb(109, 50, 62);
             background-color: whitesmoke;
+            border-radius: 50px;
 
         }
 
@@ -84,3 +85,19 @@
             border-radius: 30px;
             margin-left: 50px;
         }
+
+        #welcome{
+
+            background-color: bisque;
+            text-align: center;
+            color: darkgreen;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 50px 100px;
+            margin: 100px 200px;
+            border-radius: 50px;
+            border-width: 100px;
+            border-style: ridge;
+            border-color: rgb(79, 180, 150);
+        }
+        
