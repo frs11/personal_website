@@ -1,6 +1,6 @@
       
       
-      html{
+      body{
             background-color:ghostwhite;
             padding: 50px;
         }
@@ -26,6 +26,7 @@
             padding: 15px;
             text-align: center;
             margin: 50px;
+            margin-right: 60%;
             border-radius: 20px;
             border-style: groove;
             border-width: 3px;
@@ -57,7 +58,7 @@
 
         li{
             color: rgb(39, 36, 18);
-            font-family:'Times New Roman', Times, serif;
+            font-family:'Times New Roman', serif;
         }
         .list{
             margin-left: 70px;
