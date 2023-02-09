@@ -1,13 +1,16 @@
       
       
       body{
-            background-color:ghostwhite;
-            padding: 50px;
+            background-image: linear-gradient(145deg, #701ab6, #23678f, #470ca7);
+            /* background-color:#554272; */
+            padding: 4%;
+            font-family: 'Poppins', sans-serif;
+            
         }
 
         h1{
             color:navy ;
-            background-color:cyan;
+            background-image: linear-gradient(to bottom right,#6405d1, #30c4ff, #1b5568);
             width: inherit; 
             height: inherit;
             padding: 20px;
@@ -16,11 +19,12 @@
             border-style: groove;
             border-color: darkcyan;
             border-width: 5px;
+            
         }
 
         h3{
             color:darkslateblue;
-            background-color: cyan;
+            background-image: linear-gradient(to bottom right,#3d5cb1, #5ed1ff, #1b5568);
             width: inherit;
             height: inherit;
             padding: 15px;
@@ -34,37 +38,11 @@
         }
         
         p{
-            color: navy;
-            font-family: cursive;
+            color: #ffffff;
+            font-family: 'poppins';
             padding-left: 10px;
             margin-left: 50px;
             text-align: justify;
-        }
-
-        b{
-            color:rgb(33, 44, 148);
-            font-family: sans-serif;
-        }
-
-        #name{
-            color:blue;
-        }
-
-        button{
-            color: rgb(109, 50, 62);
-            background-color: whitesmoke;
-
-        }
-
-        li{
-            color: rgb(39, 36, 18);
-            font-family:'Times New Roman', serif;
-        }
-        .list{
-            margin-left: 70px;
-        }
-        .items{
-            margin-left: 110px;
         }
 
         img{
@@ -77,6 +55,35 @@
             margin-left: 100px;            
         }
 
+        b{
+            color:#d1d6ff;
+            font-family: sans-serif;
+        }
+
+        button{
+            color: #6d323e;
+            background-color: whitesmoke;
+            border-radius: 50px;
+
+        }
+
+        li{
+            color: #fff5be;
+            font-family:'Times New Roman', serif;
+        }
+
+        .list{
+            margin-left: 70px;
+        }
+        .items{
+            margin-left: 110px;
+        }
+
+        #name{
+            color:#bebeff;
+            font-family: 'Rajdhani';
+        }
+
         #pic{
             height: 250px;
             width: 150px;
@@ -84,3 +91,24 @@
             border-radius: 30px;
             margin-left: 50px;
         }
+
+        #welcome{
+
+            background-image: linear-gradient(to right bottom, #1773dd, #7383fc, #5c195c);
+            text-align: center;
+            color: #1d1b92;
+            font-size: 20px;
+            padding: 5% 5%;
+            margin: 5% 10%;
+            border-radius: 50px;
+            border-width: 50px;
+            border-style: double;
+            border-color: #303775;
+        }
+
+        #pw{
+            font-size: larger;
+            color:#46e2fd;
+            font-family: 'Alegreya Sans SC';
+        }
+        
