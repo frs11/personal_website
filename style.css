@@ -101,7 +101,7 @@
             display: grid;
             text-align: middle;
             align-items: center;
-            border: solid 2px red;
+            /* border: solid 2px red; */
         }
         .half-width img{
             width: 50%;
